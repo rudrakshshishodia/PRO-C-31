@@ -10,7 +10,7 @@ class Divisions {
         this.w=w;
         
         this.body=Bodies.rectangle(this.x, this.y, this.w, this.h, options);
-        World.add(world,this.Body);
+        World.add(world,this.body);
 
 
    }
